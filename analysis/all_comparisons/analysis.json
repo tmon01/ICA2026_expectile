@@ -1,0 +1,392 @@
+{
+  "source": "/workspace/scratch/82cdeb6ae70c/stump_project/analysis/test_policy_pricing_matched.csv",
+  "policies": 133780,
+  "total_exposure": 70758.449144235,
+  "total_claims": 10976159.65,
+  "claiming_policies": 4989,
+  "top10_claim_share": 0.1795521833540386,
+  "results": {
+    "mean": {
+      "total_premium": 20779857.54395335,
+      "loss_ratio": 0.5282114964832331,
+      "annual_tariff": 293.67316264373466,
+      "annual_weighted_mae": 413.00488082796835,
+      "annual_weighted_rmse": 6653.609374537187,
+      "period_mae": 218.44509535346566,
+      "period_rmse": 2098.6051154878,
+      "annual_rmse_after_fixed_target_deload": 6648.424050484982,
+      "exposure_weighted_gini": 0.24397163195742722,
+      "top10_claim_capture": 0.2455276832639729,
+      "top10_observed_rate": 380.8663251658445,
+      "top10_loss_ratio": 0.42214159876828516,
+      "top10_exposure": 7075.844914423741,
+      "decile_absolute_calibration_gap_fraction": 0.1746017951289642,
+      "decile_shape_gap_fraction": 0.16974876452938248,
+      "zero_policy_share": 0.0,
+      "zero_exposure_share": 0.0,
+      "zero_claim_share": 0.0,
+      "zero_claim_count": 0,
+      "deciles": [
+        {
+          "decile": 1,
+          "exposure": 7075.8449144235,
+          "observed_loss": 891871.360000106,
+          "quoted_premium": 951890.2705372404,
+          "observed_rate": 126.04450362982138,
+          "tariff_rate": 134.5267288994554,
+          "loss_ratio": 0.9369476583648028
+        },
+        {
+          "decile": 2,
+          "exposure": 7075.8449144235,
+          "observed_loss": 487720.75000038097,
+          "quoted_premium": 1167770.6954187462,
+          "observed_rate": 68.92756354880026,
+          "tariff_rate": 165.0362196376501,
+          "loss_ratio": 0.4176511295528709
+        },
+        {
+          "decile": 3,
+          "exposure": 7075.844914423498,
+          "observed_loss": 575204.0300003606,
+          "quoted_premium": 1294209.4362901142,
+          "observed_rate": 81.29121496541804,
+          "tariff_rate": 182.90528579166286,
+          "loss_ratio": 0.44444431779851507
+        },
+        {
+          "decile": 4,
+          "exposure": 7075.844914423502,
+          "observed_loss": 760901.7599996679,
+          "quoted_premium": 1407890.5908853926,
+          "observed_rate": 107.53510982817544,
+          "tariff_rate": 198.97137485525278,
+          "loss_ratio": 0.540455178069734
+        },
+        {
+          "decile": 5,
+          "exposure": 7075.844914423495,
+          "observed_loss": 976070.9199993666,
+          "quoted_premium": 1519823.678737168,
+          "observed_rate": 137.94408043196805,
+          "tariff_rate": 214.79041685030992,
+          "loss_ratio": 0.642226419850486
+        },
+        {
+          "decile": 6,
+          "exposure": 7075.844914423498,
+          "observed_loss": 993623.760001712,
+          "quoted_premium": 1646288.645343272,
+          "observed_rate": 140.42475096879184,
+          "tariff_rate": 232.66318937932837,
+          "loss_ratio": 0.6035537952668858
+        },
+        {
+          "decile": 7,
+          "exposure": 7075.844914423498,
+          "observed_loss": 940155.5900014818,
+          "quoted_premium": 1811923.7084744144,
+          "observed_rate": 132.86831486160133,
+          "tariff_rate": 256.07171021809205,
+          "loss_ratio": 0.5188715096581328
+        },
+        {
+          "decile": 8,
+          "exposure": 7075.8449144235055,
+          "observed_loss": 1296733.5900010993,
+          "quoted_premium": 2055223.4789440641,
+          "observed_rate": 183.26201403281445,
+          "tariff_rate": 290.45626406461605,
+          "loss_ratio": 0.6309452978161465
+        },
+        {
+          "decile": 9,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1358926.840000473,
+          "quoted_premium": 2540839.2104816264,
+          "observed_rate": 192.05152973751842,
+          "tariff_rate": 359.0863340295016,
+          "loss_ratio": 0.5348338589842853
+        },
+        {
+          "decile": 10,
+          "exposure": 7075.8449144235055,
+          "observed_loss": 2694951.0499913106,
+          "quoted_premium": 6383997.828694816,
+          "observed_rate": 380.8663251646292,
+          "tariff_rate": 902.2241026907728,
+          "loss_ratio": 0.422141598776559
+        }
+      ]
+    },
+    "expectile": {
+      "total_premium": 20800386.71621589,
+      "loss_ratio": 0.5276901722910293,
+      "annual_tariff": 293.96329297461136,
+      "annual_weighted_mae": 413.31909032453495,
+      "annual_weighted_rmse": 6654.447674775767,
+      "period_mae": 218.61128594012615,
+      "period_rmse": 2099.5856623618647,
+      "annual_rmse_after_fixed_target_deload": 6648.587509312071,
+      "exposure_weighted_gini": 0.22566818226014895,
+      "top10_claim_capture": 0.24214243184773643,
+      "top10_observed_rate": 375.61507101183565,
+      "top10_loss_ratio": 0.3928138530826822,
+      "top10_exposure": 7075.844914423715,
+      "decile_absolute_calibration_gap_fraction": 0.1846199156737569,
+      "decile_shape_gap_fraction": 0.1808879914526002,
+      "zero_policy_share": 0.0,
+      "zero_exposure_share": 0.0,
+      "zero_claim_share": 0.0,
+      "zero_claim_count": 0,
+      "deciles": [
+        {
+          "decile": 1,
+          "exposure": 7075.8449144235,
+          "observed_loss": 858042.599999896,
+          "quoted_premium": 890598.1767777721,
+          "observed_rate": 121.26362439782281,
+          "tariff_rate": 125.86456989219259,
+          "loss_ratio": 0.9634452690037343
+        },
+        {
+          "decile": 2,
+          "exposure": 7075.844914423499,
+          "observed_loss": 569173.0600003671,
+          "quoted_premium": 1101394.1197715327,
+          "observed_rate": 80.43888283082023,
+          "tariff_rate": 155.65549175992197,
+          "loss_ratio": 0.5167751032831311
+        },
+        {
+          "decile": 3,
+          "exposure": 7075.844914423496,
+          "observed_loss": 774652.9300008293,
+          "quoted_premium": 1230652.828135956,
+          "observed_rate": 109.47850601159537,
+          "tariff_rate": 173.92309229776603,
+          "loss_ratio": 0.629465038628465
+        },
+        {
+          "decile": 4,
+          "exposure": 7075.844914423502,
+          "observed_loss": 689989.0999993827,
+          "quoted_premium": 1349803.0873298189,
+          "observed_rate": 97.51331584344072,
+          "tariff_rate": 190.76210737439445,
+          "loss_ratio": 0.5111775980334432
+        },
+        {
+          "decile": 5,
+          "exposure": 7075.844914423495,
+          "observed_loss": 980450.180000607,
+          "quoted_premium": 1472559.5636607802,
+          "observed_rate": 138.5629831996522,
+          "tariff_rate": 208.110774256668,
+          "loss_ratio": 0.6658135970834415
+        },
+        {
+          "decile": 6,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1057280.8700018455,
+          "quoted_premium": 1610363.6089964705,
+          "observed_rate": 149.4211479743811,
+          "tariff_rate": 227.5860520506722,
+          "loss_ratio": 0.6565479150765899
+        },
+        {
+          "decile": 7,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1010724.0900054176,
+          "quoted_premium": 1785576.8679739241,
+          "observed_rate": 142.84147013244225,
+          "tariff_rate": 252.34821983367385,
+          "loss_ratio": 0.5660490501046174
+        },
+        {
+          "decile": 8,
+          "exposure": 7075.8449144235055,
+          "observed_loss": 1071377.369997327,
+          "quoted_premium": 2045017.8921421762,
+          "observed_rate": 151.41334822268584,
+          "tariff_rate": 289.0139505422995,
+          "loss_ratio": 0.5238963307431256
+        },
+        {
+          "decile": 9,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1306675.4599997592,
+          "quoted_premium": 2548381.2142541483,
+          "observed_rate": 184.66705754618988,
+          "tariff_rate": 360.15221433973113,
+          "loss_ratio": 0.5127472501723777
+        },
+        {
+          "decile": 10,
+          "exposure": 7075.844914423498,
+          "observed_loss": 2657793.9899921417,
+          "quoted_premium": 6766039.357025386,
+          "observed_rate": 375.6150710107366,
+          "tariff_rate": 956.2164573778884,
+          "loss_ratio": 0.39281385309006117
+        }
+      ]
+    },
+    "quantile": {
+      "total_premium": 20750638.071377356,
+      "loss_ratio": 0.5289552837963137,
+      "annual_tariff": 293.26021588007063,
+      "annual_weighted_mae": 413.3892089850863,
+      "annual_weighted_rmse": 6651.064966218821,
+      "period_mae": 218.64837285653132,
+      "period_rmse": 2095.6341669568296,
+      "annual_rmse_after_fixed_target_deload": 6648.139042447398,
+      "exposure_weighted_gini": 0.26437500582562423,
+      "top10_claim_capture": 0.25947551245758343,
+      "top10_observed_rate": 402.5024127075493,
+      "top10_loss_ratio": 0.5114452110945972,
+      "top10_exposure": 7075.844914423745,
+      "decile_absolute_calibration_gap_fraction": 0.09524595695804748,
+      "decile_shape_gap_fraction": 0.11062158488960507,
+      "zero_policy_share": 0.0,
+      "zero_exposure_share": 0.0,
+      "zero_claim_share": 0.0,
+      "zero_claim_count": 0,
+      "deciles": [
+        {
+          "decile": 1,
+          "exposure": 7075.8449144235,
+          "observed_loss": 747437.4700005495,
+          "quoted_premium": 770764.0522058078,
+          "observed_rate": 105.63225721312271,
+          "tariff_rate": 108.92890694009866,
+          "loss_ratio": 0.9697357678546357
+        },
+        {
+          "decile": 2,
+          "exposure": 7075.844914423501,
+          "observed_loss": 626144.690000571,
+          "quoted_premium": 1053473.1225138889,
+          "observed_rate": 88.49044850095977,
+          "tariff_rate": 148.88301471481867,
+          "loss_ratio": 0.594362282833007
+        },
+        {
+          "decile": 3,
+          "exposure": 7075.844914423498,
+          "observed_loss": 607246.5100000639,
+          "quoted_premium": 1244189.613615288,
+          "observed_rate": 85.8196466067599,
+          "tariff_rate": 175.83619040026088,
+          "loss_ratio": 0.4880658891176283
+        },
+        {
+          "decile": 4,
+          "exposure": 7075.844914423502,
+          "observed_loss": 907891.2100003797,
+          "quoted_premium": 1413440.5164997904,
+          "observed_rate": 128.30852300758056,
+          "tariff_rate": 199.7557229693677,
+          "loss_ratio": 0.6423271438749042
+        },
+        {
+          "decile": 5,
+          "exposure": 7075.844914423498,
+          "observed_loss": 746069.2844144206,
+          "quoted_premium": 1586318.7580545244,
+          "observed_rate": 105.43889718295307,
+          "tariff_rate": 224.18789236334882,
+          "loss_ratio": 0.4703148598768426
+        },
+        {
+          "decile": 6,
+          "exposure": 7075.844914423498,
+          "observed_loss": 851290.5255861664,
+          "quoted_premium": 1778103.947990139,
+          "observed_rate": 120.30938154832708,
+          "tariff_rate": 251.2921028505907,
+          "loss_ratio": 0.4787630816232165
+        },
+        {
+          "decile": 7,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1107909.509998377,
+          "quoted_premium": 2022280.7154065683,
+          "observed_rate": 156.57628500873432,
+          "tariff_rate": 285.8005990612264,
+          "loss_ratio": 0.5478514933944953
+        },
+        {
+          "decile": 8,
+          "exposure": 7075.8449144235055,
+          "observed_loss": 1098893.0300018406,
+          "quoted_premium": 2359156.5953527447,
+          "observed_rate": 155.3020230505393,
+          "tariff_rate": 333.4098788038451,
+          "loss_ratio": 0.46579910471671443
+        },
+        {
+          "decile": 9,
+          "exposure": 7075.844914423498,
+          "observed_loss": 1435232.7700055474,
+          "quoted_premium": 2954289.5402352503,
+          "observed_rate": 202.83553234468854,
+          "tariff_rate": 417.51756517630656,
+          "loss_ratio": 0.4858131711393663
+        },
+        {
+          "decile": 10,
+          "exposure": 7075.8449144235055,
+          "observed_loss": 2848044.6499912883,
+          "quoted_premium": 5568621.209411029,
+          "observed_rate": 402.5024127063317,
+          "tariff_rate": 786.9902855077943,
+          "loss_ratio": 0.5114452111014595
+        }
+      ]
+    }
+  },
+  "top10_capture_difference_bootstrap": {
+    "expectile_minus_mean": {
+      "estimate": -0.0033852514162364677,
+      "low": -0.008898634938094016,
+      "high": 0.0010857650502432614
+    },
+    "quantile_minus_mean": {
+      "estimate": 0.01394782919361054,
+      "low": -0.002219538681676468,
+      "high": 0.031883143682194415
+    },
+    "quantile_minus_expectile": {
+      "estimate": 0.017333080609847007,
+      "low": 0.002539011498195285,
+      "high": 0.034455739041043154
+    }
+  },
+  "error_difference_bootstrap": {
+    "period_mae_difference": {
+      "expectile_minus_mean": {
+        "estimate": 0.16619058666049114,
+        "low": -0.06600169259188501,
+        "high": 0.4030901834623645
+      },
+      "quantile_minus_mean": {
+        "estimate": 0.20327750306566372,
+        "low": -0.2921157573531687,
+        "high": 0.6768622014080938
+      }
+    },
+    "period_rmse_difference": {
+      "expectile_minus_mean": {
+        "estimate": 0.9805468740646575,
+        "low": 0.6625325621830427,
+        "high": 1.6990862538024825
+      },
+      "quantile_minus_mean": {
+        "estimate": -2.970948530970418,
+        "low": -5.9658916345538895,
+        "high": -1.174645402691955
+      }
+    }
+  }
+}

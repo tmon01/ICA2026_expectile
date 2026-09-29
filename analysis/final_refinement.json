@@ -1,0 +1,11 @@
+{
+  "cycles": 0,
+  "selection_metrics": {
+    "mean": "valid RMSE",
+    "quantile": "valid pinball loss",
+    "expectile": "valid asymmetric squared loss"
+  },
+  "stable_at_final_alpha": true,
+  "joint_refinement": true,
+  "scope": "Top three anchor-grid settings plus incumbent: native-loss winner selected at each candidate alpha, then alpha selected by validation LR proximity. No test selection."
+}

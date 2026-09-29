@@ -1,0 +1,143 @@
+{
+  "metrics": [
+    {
+      "model": "mean",
+      "contracts": 133780,
+      "deficit_contracts": 4358,
+      "deficit_probability": 0.03257587083271042,
+      "exposure_weighted_deficit_probability": 0.04126641435985883,
+      "total_shortfall": 9709943.481216641,
+      "mean_shortfall": 72.58142832423862,
+      "mean_shortfall_given_deficit": 2228.0733091364486,
+      "second_shortfall_moment": 4343232.054949785,
+      "root_second_shortfall_moment": 2084.0422392431938,
+      "total_surplus": 19513641.375169992,
+      "net_surplus": 9803697.893953351,
+      "expectile_foc_ratio_066": 0.9659249882732439,
+      "implied_expectile_alpha": 0.6677360587712226,
+      "expectile_score_066": 29163643.24127077,
+      "pinball_score_0948": 144.43131379081197,
+      "shortfall_ES_0.95": 1451.628566484771,
+      "shortfall_ES_0.99": 5589.816848625875,
+      "shortfall_ES_0.995": 9649.445437057326,
+      "shortfall_ES_0.999": 32074.681806863897,
+      "expectile_score_0.5": 22135258.854464546,
+      "expectile_score_0.66": 29163643.24127077,
+      "expectile_score_0.8": 35313479.57972623,
+      "expectile_score_0.9": 39706219.8214801,
+      "expectile_score_0.95": 41902589.942357056
+    },
+    {
+      "model": "expectile",
+      "contracts": 133780,
+      "deficit_contracts": 4354,
+      "deficit_probability": 0.032545970997159515,
+      "exposure_weighted_deficit_probability": 0.04125072718732431,
+      "total_shortfall": 9710795.383427093,
+      "mean_shortfall": 72.5877962582381,
+      "mean_shortfall_given_deficit": 2230.3158896249643,
+      "second_shortfall_moment": 4343162.969242641,
+      "root_second_shortfall_moment": 2084.025664247598,
+      "total_surplus": 19535022.449642982,
+      "net_surplus": 9824227.06621589,
+      "expectile_foc_ratio_066": 0.9649524364559938,
+      "implied_expectile_alpha": 0.6679595202686899,
+      "expectile_score_066": 29167171.472416192,
+      "pinball_score_0948": 144.4584401508625,
+      "shortfall_ES_0.95": 1451.7559251647608,
+      "shortfall_ES_0.99": 5589.688736537737,
+      "shortfall_ES_0.995": 9649.214781976652,
+      "shortfall_ES_0.999": 32071.45880119716,
+      "expectile_score_0.5": 22140836.928164314,
+      "expectile_score_0.66": 29167171.472416192,
+      "expectile_score_0.8": 35315214.198636584,
+      "expectile_score_0.9": 39706673.28879402,
+      "expectile_score_0.95": 41902402.83387271
+    },
+    {
+      "model": "quantile",
+      "contracts": 133780,
+      "deficit_contracts": 4410,
+      "deficit_probability": 0.03296456869487218,
+      "exposure_weighted_deficit_probability": 0.041797093034337096,
+      "total_shortfall": 9738150.449684702,
+      "mean_shortfall": 72.79227425388476,
+      "mean_shortfall_given_deficit": 2208.197380880885,
+      "second_shortfall_moment": 4345486.808223295,
+      "root_second_shortfall_moment": 2084.5831257647883,
+      "total_surplus": 19512628.87106206,
+      "net_surplus": 9774478.421377357,
+      "expectile_foc_ratio_066": 0.9687812259890167,
+      "implied_expectile_alpha": 0.6670806496161384,
+      "expectile_score_066": 29155540.727569964,
+      "pinball_score_0948": 144.80847801949236,
+      "shortfall_ES_0.95": 1455.8454850776936,
+      "shortfall_ES_0.99": 5593.788359943321,
+      "shortfall_ES_0.995": 9654.872904959215,
+      "shortfall_ES_0.999": 32078.42155605356,
+      "expectile_score_0.5": 22118332.59243167,
+      "expectile_score_0.66": 29155540.727569964,
+      "expectile_score_0.8": 35313097.84581598,
+      "expectile_score_0.9": 39711352.93027741,
+      "expectile_score_0.95": 41910480.47250813
+    }
+  ],
+  "paired_poisson_bootstrap_vs_mean": {
+    "expectile": {
+      "deficit_probability": {
+        "delta": -2.989983555090447e-05,
+        "low": -0.00011986682584999194,
+        "high": 6.731641970926855e-05
+      },
+      "mean_shortfall": {
+        "delta": 0.006367933999482923,
+        "low": -0.04031040349558472,
+        "high": 0.05730899872642456
+      },
+      "second_shortfall_moment": {
+        "delta": -69.08570714349833,
+        "low": -769.9747239223805,
+        "high": 491.58173211696896
+      },
+      "expectile_066": {
+        "delta": 3528.2311454198098,
+        "low": 2024.7096865901428,
+        "high": 4795.571219160122
+      },
+      "pinball_0948": {
+        "delta": 0.02712636005051963,
+        "low": -0.055975278072115164,
+        "high": 0.1198470873263495
+      }
+    },
+    "quantile": {
+      "deficit_probability": {
+        "delta": 0.00038869786216175813,
+        "low": 0.00020951952693677454,
+        "high": 0.000547230466757735
+      },
+      "mean_shortfall": {
+        "delta": 0.21084592964612808,
+        "low": 0.09221309345288148,
+        "high": 0.32418187987209285
+      },
+      "second_shortfall_moment": {
+        "delta": 2254.7532735102236,
+        "low": -602.0846110000949,
+        "high": 7653.057801108963
+      },
+      "expectile_066": {
+        "delta": -8102.513700805158,
+        "low": -14178.033122910403,
+        "high": 673.4772892217636
+      },
+      "pinball_0948": {
+        "delta": 0.37716422868041055,
+        "low": 0.16728096359684433,
+        "high": 0.5859685792936983
+      }
+    }
+  },
+  "bootstrap_replicates": 600,
+  "scope": "Frozen tariffs, post-hoc exploration, no removal or capping of observed losses"
+}

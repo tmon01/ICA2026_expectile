@@ -1,0 +1,9 @@
+{
+  "policies": 133780,
+  "total_loss": 10976159.65,
+  "total_exposure": 70758.449144235,
+  "pricing_sha256": "959cf6a1c7c15cbc969cfa6007ea3b865aa8df3963dae7c0745c0b6f1bf0e031",
+  "frozen_prices": true,
+  "no_refit": true,
+  "training_claim_exclusion": null
+}

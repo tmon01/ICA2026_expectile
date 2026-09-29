@@ -1,0 +1,228 @@
+{
+  "quality": {
+    "freq_policies": 678013,
+    "claim_rows": 26639,
+    "claim_rows_without_policy": 195,
+    "missing_label_policies": 9116,
+    "count_disagreements_retained": 1,
+    "matched_recorded_claims_excluded": 0,
+    "largest_recorded_claim": 4075400.56,
+    "kept_policies": 668897,
+    "no_target_capping": true,
+    "no_target_winsorization": true
+  },
+  "split": {
+    "train": 454849,
+    "valid": 80268,
+    "test": 133780
+  },
+  "claims": {
+    "train": 17970,
+    "valid": 3188,
+    "test": 5286
+  },
+  "frequency": {
+    "train": {
+      "observed_claims": 17970,
+      "predicted_claims": 17970.000007968913,
+      "poisson_deviance": 0.46144873228659
+    },
+    "valid": {
+      "observed_claims": 3189,
+      "predicted_claims": 3176.710103588577,
+      "poisson_deviance": 0.46730650334932405
+    },
+    "test": {
+      "observed_claims": 5286,
+      "predicted_claims": 5277.156944681664,
+      "poisson_deviance": 0.46127889932106486
+    }
+  },
+  "glm_iterations": 6,
+  "severity_parameters": {
+    "mean": {
+      "tree_method": "hist",
+      "max_depth": 1,
+      "eta": 0.01,
+      "min_child_weight": 500,
+      "reg_lambda": 10000,
+      "nthread": 4,
+      "seed": 20260928,
+      "subsample": 1.0,
+      "colsample_bytree": 0.6,
+      "reg_alpha": 0
+    },
+    "quantile": {
+      "tree_method": "hist",
+      "max_depth": 1,
+      "eta": 0.01,
+      "min_child_weight": 200,
+      "reg_lambda": 100,
+      "nthread": 4,
+      "seed": 20260928,
+      "subsample": 0.6,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0
+    },
+    "expectile": {
+      "tree_method": "hist",
+      "max_depth": 1,
+      "eta": 0.01,
+      "min_child_weight": 200,
+      "reg_lambda": 10000,
+      "nthread": 4,
+      "seed": 20260928,
+      "subsample": 1.0,
+      "colsample_bytree": 0.6,
+      "reg_alpha": 0
+    }
+  },
+  "hyperparameter_anchor_alphas": {
+    "mean": null,
+    "quantile": 0.936094,
+    "expectile": 0.766797
+  },
+  "initial_alpha_grids": {
+    "quantile": [
+      0.5,
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.93,
+      0.96,
+      0.99
+    ],
+    "expectile": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ]
+  },
+  "target_validation_lr": 0.5,
+  "alpha_policy": "Select alpha using validation only; no test rescaling",
+  "selected": {
+    "quantile": {
+      "name": "quantile_0.936094",
+      "alpha": 0.936094,
+      "multiplier": 1.0,
+      "best_iteration": 817,
+      "train": {
+        "loss_ratio": 0.6042006532485663,
+        "premium_total": 70662025.58777407,
+        "zero_prices": 0,
+        "mean_shortfall": 84.58498421780396,
+        "total_shortfall": 38473395.48648392,
+        "deficit_probability": 0.03299116849767725,
+        "period_rmse": 6984.800524083376,
+        "annual_weighted_rmse": 19943.98607068347
+      },
+      "valid": {
+        "loss_ratio": 0.49965492341077883,
+        "premium_total": 12486647.359363154,
+        "zero_prices": 0,
+        "mean_shortfall": 68.53210221027754,
+        "total_shortfall": 5500934.780214557,
+        "deficit_probability": 0.03280261125230478,
+        "period_rmse": 1633.5346595383116,
+        "annual_weighted_rmse": 4163.978287375838
+      },
+      "test": {
+        "loss_ratio": 0.5289552837963136,
+        "premium_total": 20750638.07137736,
+        "zero_prices": 0,
+        "mean_shortfall": 72.79227425388476,
+        "total_shortfall": 9738150.449684702,
+        "deficit_probability": 0.03296456869487218,
+        "period_rmse": 2095.6341669568296,
+        "annual_weighted_rmse": 6651.06496621882
+      }
+    },
+    "expectile": {
+      "name": "expectile_0.753125",
+      "alpha": 0.753125,
+      "multiplier": 1.0,
+      "best_iteration": 1621,
+      "train": {
+        "loss_ratio": 0.6029179172444363,
+        "premium_total": 70812362.34465875,
+        "zero_prices": 0,
+        "mean_shortfall": 84.37860766243708,
+        "total_shortfall": 38379525.31665184,
+        "deficit_probability": 0.03254046947448494,
+        "period_rmse": 6985.079035920095,
+        "annual_weighted_rmse": 19942.875878023024
+      },
+      "valid": {
+        "loss_ratio": 0.4997109710850879,
+        "premium_total": 12485246.85470165,
+        "zero_prices": 0,
+        "mean_shortfall": 68.44178210734759,
+        "total_shortfall": 5493684.966192577,
+        "deficit_probability": 0.032391488513479845,
+        "period_rmse": 1637.034410043252,
+        "annual_weighted_rmse": 4164.604876965205
+      },
+      "test": {
+        "loss_ratio": 0.5276901722910294,
+        "premium_total": 20800386.71621589,
+        "zero_prices": 0,
+        "mean_shortfall": 72.58779625823811,
+        "total_shortfall": 9710795.383427095,
+        "deficit_probability": 0.032545970997159515,
+        "period_rmse": 2099.585662361865,
+        "annual_weighted_rmse": 6654.447674775767
+      }
+    },
+    "mean": {
+      "name": "mean",
+      "alpha": null,
+      "multiplier": 1.8256062929788859,
+      "best_iteration": 692,
+      "train": {
+        "loss_ratio": 0.6028706861183503,
+        "premium_total": 70817910.04782522,
+        "zero_prices": 0,
+        "mean_shortfall": 84.38546632143348,
+        "total_shortfall": 38382644.9708377,
+        "deficit_probability": 0.0325954327699962,
+        "period_rmse": 6984.96384682981,
+        "annual_weighted_rmse": 19942.886247588718
+      },
+      "valid": {
+        "loss_ratio": 0.499682945676266,
+        "premium_total": 12485947.107032398,
+        "zero_prices": 0,
+        "mean_shortfall": 68.44051800537574,
+        "total_shortfall": 5493583.4992555,
+        "deficit_probability": 0.032379030248666965,
+        "period_rmse": 1635.6552252503968,
+        "annual_weighted_rmse": 4163.398006821009
+      },
+      "test": {
+        "loss_ratio": 0.5282114964832332,
+        "premium_total": 20779857.54395335,
+        "zero_prices": 0,
+        "mean_shortfall": 72.58142832423863,
+        "total_shortfall": 9709943.481216643,
+        "deficit_probability": 0.03257587083271042,
+        "period_rmse": 2098.6051154878005,
+        "annual_weighted_rmse": 6653.609374537184
+      }
+    }
+  },
+  "prediction_uses_best_iteration": true,
+  "no_loss_capping": true,
+  "no_prediction_clipping": true,
+  "seed": 20260928,
+  "xgboost_version": "3.3.0"
+}

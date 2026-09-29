@@ -1,0 +1,4 @@
+model,alpha,min_child_weight,reg_lambda,subsample,colsample_bytree,trees,valid_LR_pct,test_LR_pct
+Mean,,500,10000,1.0,0.6,693,49.968295,52.82115
+Quantile,0.936094,200,100,0.6,1.0,818,49.965492,52.895528
+Expectile,0.753125,200,10000,1.0,0.6,1622,49.971097,52.769017
